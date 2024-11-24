@@ -6,7 +6,7 @@ function fib(n){
 }
 
 function Solver(x, array1){
-    if (x <= 0){
+    if (x < 0){
         return array1;
     }
     if (x == 1){
