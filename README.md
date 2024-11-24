@@ -27,3 +27,7 @@ about the current recursive call.
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. You do not need to prove that the invariant is correct. Add
 your answer to this markdown file.
+
+I made sure that certain indexes would be defined with the proper values if needed. The amount of these given values changes depending on the input into the function. Also, some of these variiables will remain undefined until after the final recursive call (this would be the invariant). This is true as there is always some amount of undefined variables throughout the code, until the array is slowly filled with actually defined values. But making sure that some are defined at the beginning allows for the rest of the calculations to be done properly with a good starting point. ChatGPT did help with some of this reasoning, as well as the ideas of slowly filling in the array.
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
