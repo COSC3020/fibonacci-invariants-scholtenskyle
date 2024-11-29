@@ -30,6 +30,6 @@ your answer to this markdown file.
 
 I made sure that certain indexes would be defined with the proper values if needed. The amount of these given values changes depending on the input into the function. Also, some of these variiables will remain undefined until after the final recursive call (this would be the invariant). This is true as there is always some amount of undefined variables throughout the code, until the array is slowly filled with actually defined values. But making sure that some are defined at the beginning allows for the rest of the calculations to be done properly with a good starting point. ChatGPT did help with some of this reasoning, as well as the ideas of slowly filling in the array.
 
-The Invariant is as follows: At least one element within the array will be undefined until after the final recursive call.
+The Invariant is as follows: At least one element within the array will be undefined until after the final recursive call. This can be used to check if the algorithm has been executed properly, by constantly checking to see if there are any undefined values within the array. If there are no undefined values when this is expected, then you can know that the algorithm was executed properly.
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
